@@ -1,0 +1,183 @@
+* {
+    color: var(--light);
+    font-family: var(--poppins);
+}
+
+body {
+    background-image: url(4882066.jpg)
+    /* background: chocolate; */
+}
+
+:root {
+    --light: #F9F9F9;
+    --poppins: 'Poppins', sans-serif;
+	--lato: 'Lato', sans-serif;
+    --red: RED;
+    --black: #000000;
+}
+
+div header h1 {
+    color: var(--red);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-in {
+    width: 400px;
+    height: auto;
+    display: inline-block;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    padding: 30px 80px 50px 80px;
+    border-radius: 10px;
+}
+
+.sign-in .login-box {
+    height: 600px;
+    width: auto;
+    position: relative;
+}
+
+.container .sign-in .login-box header h2 {
+    display: flex;
+    font-size: 30px;
+}
+
+.container .sign-in .login-box .input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .sign-in .login-box .text-input{
+    width: 100%;
+    height: 55px;
+    border: 1px solid red;
+    border-radius: 10px;
+    font-size: 15px;
+    background: transparent;
+    transition-duration: 250ms;
+}
+
+.container .sign-in .login-box .text-input:focus {
+    font-size: 16px;
+    /* padding-bottom: 8px; */
+    border: 2px solid white;
+}
+
+.container .sign-in .login-box .text-input {
+    margin-bottom: 15px;
+}
+
+.container .sign-in .login-box .button {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding-top: 5%;
+    flex-direction: column;
+}
+
+.login-box p {
+    display: flex;
+    justify-content: center;
+}
+
+.container .sign-in .login-box .input-button {
+    width: 100%;
+    height: 40px;
+    color: var(--light);
+    background-color: red;
+    font-size: 18px;
+    transition-duration: 250ms;
+    border: none;
+    border-radius: 5px;
+    font: inherit;
+}
+
+
+.container .sign-in .login-box .input-button:hover {
+    background: rgb(193, 17, 25);
+}
+
+.input-button1 {
+    width: 100%;
+    height: 40px;
+    color: var(--light);
+    background-color: rgba(128, 128, 128, 0.4);
+    font-size: 18px;
+    transition-duration: 250ms;
+    border: none;
+    border-radius: 5px;
+    font: inherit;
+}
+
+.input-button1:hover{
+    background-color: rgba(128, 128, 128, 0.7);
+}
+
+.forgot-pw {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.forgot-pw a {
+    text-decoration: none;
+    transition-duration: 100ms;
+}
+
+.forgot-pw a:hover {
+    text-decoration-line: underline;
+    color: rgb(202, 199, 199) ;
+}
+
+.sign-up {
+    display: flex;
+    padding: 5px;
+}
+
+.sign-up p{
+    color: rgb(201, 196, 196);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.sign-up p a {
+    text-decoration: none;
+    padding-left: 2px;
+    transition-duration: 120ms;
+}
+
+.sign-up p a:hover {
+    text-decoration: underline;
+}
+
+.sign-up p a:focus{
+    background-color: rgba(194, 194, 194, 0.418);
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.login-box .learn-more p{
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff9c;
+}
+
+.login-box .learn-more p a {
+    text-decoration: none;
+    color: rgba(133, 133, 241, 0.705);
+    font-size: 14px;
+}
+
+.login-box .learn-more p a:hover{
+    text-decoration: underline;
+}
