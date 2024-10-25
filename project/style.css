@@ -1,0 +1,93 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(bg1.jpg);
+    background-size: cover;
+}
+
+.h-body h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 0, 0);
+}
+
+.container {
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in {
+    width: auto;
+    height: 650px;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.548);
+    padding: 0px 30px 30px 30px;
+    border-radius: 10px;
+}
+
+.login-box {
+    /* background-color: brown; */
+    justify-content: center;
+    align-items: center;
+}
+
+.h-box h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+    color: white;
+}
+
+.h-box h1::after {
+    width: 1000px;
+    height: 1000px;
+    color: rgb(255, 255, 255);
+
+}
+
+.input-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    /* background-color: aliceblue; */
+}
+
+.box .input-login input{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 50px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.box .input-login input:focus {
+    border-radius: 20px;
+    width: 95%;
+    height: 55px;
+    color: rgb(255, 255, 255);
+}
+
+.user {
+    position: absolute;
+    cursor: pointer;
+    right: 300px;
+    color: white;
+}
+
+.pass {
+    position: absolute;
+    cursor: pointer;
+    right: 300px;
+    color: white;
+}
